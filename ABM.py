@@ -1,3 +1,12 @@
+#import packages
+import agentpy as ap
+import numpy as np 
+import matplotlib as mtl
+import pandas as pd
+import random
+
+
+
 #set the model parameters
 
 # Setting initial means for the distributions of independent variables
@@ -16,5 +25,6 @@ abundance_rate = [-1.0, 1.0]       # Example range for colonization rate (-1: lo
 uptake_efficiency = [0.0, 1.0]     # Efficiency (0: no uptake, 1: full efficiency)
 biomass_mean = [0.1, 5.0]          # Example range in grams per unit soil
 grsp_concentration = [0.01, 0.5]   # Example range in % of soil carbon content
+
 
 
