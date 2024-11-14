@@ -1,9 +1,12 @@
 #import packages
 import agentpy as ap
 import numpy as np 
-import matplotlib as mtl
+import matplotlib.pyplot as plt
 import pandas as pd
 import random
+import networkx as nx
+import IPython
+import seaborn as sns
 
 
 
